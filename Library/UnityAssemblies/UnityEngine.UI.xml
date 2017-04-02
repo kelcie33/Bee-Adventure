@@ -3309,7 +3309,7 @@ Used if the native representation has been destroyed.</para>
     </member>
     <member name="P:UnityEngine.UI.Image.defaultETC1GraphicMaterial">
       <summary>
-        <para>Cache of the default Canvas Ericsson Texture Compression 1 (ETC1) and alpha Material.</para>
+        <para>Cache of the default Cavas ETC1 + alpha material.</para>
       </summary>
     </member>
     <member name="P:UnityEngine.UI.Image.eventAlphaThreshold">
@@ -3369,7 +3369,7 @@ Used if the native representation has been destroyed.</para>
     </member>
     <member name="P:UnityEngine.UI.Image.material">
       <summary>
-        <para>The specified Material used by this Image. The default Material is used instead if one wasn't specified.</para>
+        <para>The material used by this Image. If a material is specified it is used, otherwise the default material is used.</para>
       </summary>
     </member>
     <member name="P:UnityEngine.UI.Image.minHeight">
