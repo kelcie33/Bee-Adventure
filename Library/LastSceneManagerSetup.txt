@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/BEEADV/Scenes/LoginScene.unity
-  isLoaded: 1
-  isActive: 1
