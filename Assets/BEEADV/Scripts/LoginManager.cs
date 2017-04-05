@@ -57,7 +57,7 @@ public class LoginManager : MonoBehaviour
         string email = "temp@gmail.com"; // TODO
 
         var myForm = new WWWForm();
-        myForm.AddField("action", "submit_useraccount");
+        myForm.AddField("action", "submit_user_account");
         myForm.AddField("username", username);
         myForm.AddField("password", password);
         myForm.AddField("email", email);
@@ -73,7 +73,7 @@ public class LoginManager : MonoBehaviour
 
 		// Prepare WWW request
 		var myForm = new WWWForm ();
-		myForm.AddField ("action", "show_useraccount");
+		myForm.AddField ("action", "show_user_account");
 		myForm.AddField ("username", username);
 
 		// Send WWW request
