@@ -75,9 +75,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BEEADV\Scripts\Beetrice.AR.Scripts\CameraController.cs" />
+    <Compile Include="Assets\BEEADV\Scripts\Beetrice.AR.Scripts\GetALine.cs" />
+    <Compile Include="Assets\BEEADV\Scripts\Beetrice.AR.Scripts\TouchableObject.cs" />
     <Compile Include="Assets\BEEADV\Scripts\BuildingController.cs" />
     <Compile Include="Assets\BEEADV\Scripts\GameManager.cs" />
+    <Compile Include="Assets\BEEADV\Scripts\HomeManager.cs" />
     <Compile Include="Assets\BEEADV\Scripts\LoginManager.cs" />
+    <Compile Include="Assets\BEEADV\Scripts\StoryManager.cs" />
     <Compile Include="Assets\BEEADV\Scripts\TempFromRosanna\CreateAccount.cs" />
     <Compile Include="Assets\BEEADV\Scripts\TempFromRosanna\ReadJason.cs" />
     <Compile Include="Assets\BEEADV\Scripts\TempFromRosanna\Registration.cs" />
