@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;  // Text
 using UnityEngine.SceneManagement;
+using System; // Convert
 
 // **** WARNING ***
 // Only associate this with the GameObject named GameManager in LoginScene
@@ -14,7 +15,7 @@ public class GameManager : MonoBehaviour
 {
     public GameObject gameView;
     public string activeUser = "";
-    public int activeUserScore = 0;
+    public int activeUserScore = 1;
     public int activeUserHives = 0;
 
     private GameObject lowerPanel;
@@ -69,7 +70,7 @@ public class GameManager : MonoBehaviour
             Text scoreText = upperPanel.transform.Find("ScoreText").gameObject.GetComponent<Text>();
             Text hivesText = upperPanel.transform.Find("HivesText").gameObject.GetComponent<Text>();
 
-            scoreText.text = "Score: " + activeUserScore;
+            scoreText.text = "Level: " + activeUserScore;
             hivesText.text = "Hives: " + activeUserHives;
         }
     }
@@ -104,7 +105,7 @@ public class GameManager : MonoBehaviour
         {
             // Set lowerpanel and upperpanel to be active or inactive (hidden)
             // based on the name of the newly loaded scene
-            if (scene.name == "LoginScene"
+            if (scene.name == "LoginScene2"
                 || scene.name == "StoryScene")
             {
                 lowerPanel.SetActive(false);
@@ -120,12 +121,15 @@ public class GameManager : MonoBehaviour
             // based on the name of the newly loaded scene
             Button switchButton = upperPanel.transform.Find("SwitchButton").gameObject.GetComponent<Button>();
             if (scene.name == "HomeScene")
-            {
+			{
+				switchButton.gameObject.SetActive(true);
                 switchButton.enabled = true;
+
             }
             else
-            {
-                switchButton.enabled = false;
+			{
+				switchButton.enabled = false;
+				switchButton.gameObject.SetActive(false);
             }
 
             /**
@@ -169,15 +173,15 @@ public class GameManager : MonoBehaviour
 
     private void SetupNavigateButtons()
     {
-        GameObject templateButton = lowerPanel.transform.Find("TemplateButton").gameObject;
-        RectTransform templateRect = templateButton.GetComponent<RectTransform>();
-        float tx = templateRect.sizeDelta.x/2;
-        float ty = templateRect.sizeDelta.y/2;
+        //GameObject templateButton = lowerPanel.transform.Find("TemplateButton").gameObject;
+        //RectTransform templateRect = templateButton.GetComponent<RectTransform>();
+        //float tx = templateRect.sizeDelta.x/2;
+        //float ty = templateRect.sizeDelta.y/2;
 
-        Transform dupParent = templateButton.transform.parent.transform;
-        GameObject dupButton;
+        //Transform dupParent = templateButton.transform.parent.transform;
+        //GameObject dupButton;
 
-        templateButton.SetActive(true);
+        //templateButton.SetActive(true);
 
         // We are going to dynamically setup duplicates of the template button
         // using our own code instead of relying on the inspector.  This happens a few times below.
@@ -187,31 +191,58 @@ public class GameManager : MonoBehaviour
         // - AddListener: Sets the on click event to the LoadLevel with a scene name argument
         // - Text: Sets the text to a new value
         // - Add: Adds the duplicate button to a list (in case we need it later)
-        dupButton = Instantiate(templateButton, new Vector3(tx, ty, 0), Quaternion.identity, dupParent);
+
+        /**
+        // HomeButton
+        dupButton = Instantiate(templateButton, new Vector3(tx, -ty, 0), Quaternion.identity, dupParent);
         dupButton.name = "HomeButton";
         dupButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(delegate { LoadLevel("HomeScene"); });
         dupButton.GetComponent<UnityEngine.UI.Text>().text = dupButton.name;
         dupButtons.Add(dupButton);
 
-        dupButton = Instantiate(templateButton, new Vector3(tx + 100, ty, 0), Quaternion.identity, dupParent);
-        dupButton.name = "HivesButton";
-        dupButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(delegate { LoadLevel("HivesScene"); });
-        dupButton.GetComponent<UnityEngine.UI.Text>().text = dupButton.name;
-        dupButtons.Add(dupButton);
+        // HivesButton
+        dupButton = Instantiate(templateButton, new Vector3(tx + 100, -ty, 0), Quaternion.identity, dupParent);
+		dupButton.name = "HivesButton";
+		dupButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(delegate { LoadLevel("HiveScene1"); });
+		dupButton.GetComponent<UnityEngine.UI.Text>().text = dupButton.name;
+		dupButtons.Add(dupButton);
 
-        dupButton = Instantiate(templateButton, new Vector3(tx + 200, ty, 0), Quaternion.identity, dupParent);
+        // FactsButton
+        dupButton = Instantiate(templateButton, new Vector3(tx + 200, -ty, 0), Quaternion.identity, dupParent);
         dupButton.name = "FactsButton";
         dupButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(delegate { LoadLevel("FactsScene"); });
         dupButton.GetComponent<UnityEngine.UI.Text>().text = dupButton.name;
         dupButtons.Add(dupButton);
 
-        dupButton = Instantiate(templateButton, new Vector3(tx + 300, ty, 0), Quaternion.identity, dupParent);
+        // ParksButton
+        dupButton = Instantiate(templateButton, new Vector3(tx + 300, -ty, 0), Quaternion.identity, dupParent);
         dupButton.name = "ParksButton";
         dupButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(delegate { LoadLevel("ParksScene"); });
         dupButton.GetComponent<UnityEngine.UI.Text>().text = dupButton.name;
         dupButtons.Add(dupButton);
+        **/
 
-        templateButton.SetActive(false);
+        /**
+         * steps to adding new scenes!!
+         *
+         * #1.
+            To ensure scenes can run, they need to be added under "File -> Build Settings" in the "Scenes in Build" window
+
+            #2.
+            To ensure scenes are added as bottom buttons, they need to be added under GameManager.cs in function SetupNavigateButtons by copying the code block for an existing scene button
+        **/
+
+
+        /**
+        // ParksScene -- PLACEHOLDER FOR NEXT BUTTON
+        dupButton = Instantiate(templateButton, new Vector3(tx + 400, -ty, 0), Quaternion.identity, dupParent); // todo: check +400 is x offset that is visible
+        dupButton.name = "ParksScene"; // todo: change scene name
+        dupButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(delegate { LoadLevel("ParksScene"); }); // todo: change scene name
+        dupButton.GetComponent<UnityEngine.UI.Text>().text = dupButton.name;
+        dupButtons.Add(dupButton);
+        **/
+
+        //templateButton.SetActive(false);
     }
 
     public void SwitchPressed()

@@ -36,6 +36,10 @@ using UnityEngine.SceneManagement;
  * 4. Problem: Scene data like active user is destroyed when loading next scene
  * Fix: Stored data in GameManager and set it as DontDestroyOnLoad
  * 
+ * 5. Problem: Game crashes sometimes when loading GPS data
+ * Fix: Update to Unity 5.6.0 (tbd)
+ * See: https://issuetracker.unity3d.com/issues/android-location-app-crashes-due-to-error-jstring-has-wrong-type-android-dot-location-dot-location
+ * 
  **/
 
 /**

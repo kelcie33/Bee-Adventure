@@ -680,7 +680,7 @@ public class MapNav : MonoBehaviour
 					mycam.orthographicSize = (screenY / screenX) * mymap.localScale.x * 5.0f * 0.75f;
 				}
 			}
-			firstTime = false;
+			firstTime = true;
 
 			if (screenY >= screenX)
 			{

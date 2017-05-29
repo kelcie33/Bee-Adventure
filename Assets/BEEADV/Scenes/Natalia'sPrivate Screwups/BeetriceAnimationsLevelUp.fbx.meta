@@ -1,0 +1,603 @@
+fileFormatVersion: 2
+guid: 28517fb59df746647b5d934f433061e5
+timeCreated: 1493529780
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: //RootNode
+    100004: Body
+    100006: Bone
+    100008: Bone.001
+    100010: Bone.001_end
+    100012: Bone.002
+    100014: Bone.003
+    100016: Bone.003_end
+    100018: Forehead
+    100020: LeftAntennaBottom.001
+    100022: LeftAntennaTop
+    100024: LeftAntennaTop_end
+    100026: LeftBack
+    100028: LeftBack_end
+    100030: LeftFront
+    100032: LeftFront_end
+    100034: LeftMiddle
+    100036: LeftMiddle_end
+    100038: LeftTopHead
+    100040: RightAntennaBottom
+    100042: RightAntennaTop
+    100044: RightAntennaTop_end
+    100046: RightBack
+    100048: RightBack_end
+    100050: RightFront
+    100052: RightFront_end
+    100054: RightMiddle
+    100056: RightMiddle_end
+    100058: RighttopHead
+    100060: wings
+    400000: Armature
+    400002: //RootNode
+    400004: Body
+    400006: Bone
+    400008: Bone.001
+    400010: Bone.001_end
+    400012: Bone.002
+    400014: Bone.003
+    400016: Bone.003_end
+    400018: Forehead
+    400020: LeftAntennaBottom.001
+    400022: LeftAntennaTop
+    400024: LeftAntennaTop_end
+    400026: LeftBack
+    400028: LeftBack_end
+    400030: LeftFront
+    400032: LeftFront_end
+    400034: LeftMiddle
+    400036: LeftMiddle_end
+    400038: LeftTopHead
+    400040: RightAntennaBottom
+    400042: RightAntennaTop
+    400044: RightAntennaTop_end
+    400046: RightBack
+    400048: RightBack_end
+    400050: RightFront
+    400052: RightFront_end
+    400054: RightMiddle
+    400056: RightMiddle_end
+    400058: RighttopHead
+    400060: wings
+    4300000: Body
+    4300002: wings
+    7400000: Armature|ArmatureAction
+    7400002: Armature|Sphere.001Action.002
+    7400004: Armature|SphereAction
+    7400006: Body|Sphere.001Action.002
+    7400008: Body|SphereAction
+    7400010: wings|Sphere.001Action.002
+    7400012: wings|SphereAction
+    7400014: celebration
+    7400016: staticCelebration
+    7400018: static
+    7400020: headshake
+    9500000: //RootNode
+    13700000: Body
+    13700002: wings
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ArmatureAction
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 369
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Forehead
+        weight: 1
+      - path: Armature/Bone/Forehead/LeftTopHead
+        weight: 1
+      - path: Armature/Bone/Forehead/LeftTopHead/LeftAntennaBottom.001
+        weight: 1
+      - path: Armature/Bone/Forehead/LeftTopHead/LeftAntennaBottom.001/LeftAntennaTop
+        weight: 1
+      - path: Armature/Bone/Forehead/LeftTopHead/LeftAntennaBottom.001/LeftAntennaTop/LeftAntennaTop_end
+        weight: 1
+      - path: Armature/Bone/Forehead/RighttopHead
+        weight: 1
+      - path: Armature/Bone/Forehead/RighttopHead/RightAntennaBottom
+        weight: 1
+      - path: Armature/Bone/Forehead/RighttopHead/RightAntennaBottom/RightAntennaTop
+        weight: 1
+      - path: Armature/Bone/Forehead/RighttopHead/RightAntennaBottom/RightAntennaTop/RightAntennaTop_end
+        weight: 1
+      - path: Armature/Bone/LeftBack
+        weight: 1
+      - path: Armature/Bone/LeftBack/LeftBack_end
+        weight: 1
+      - path: Armature/Bone/LeftFront
+        weight: 1
+      - path: Armature/Bone/LeftFront/LeftFront_end
+        weight: 1
+      - path: Armature/Bone/LeftMiddle
+        weight: 1
+      - path: Armature/Bone/LeftMiddle/LeftMiddle_end
+        weight: 1
+      - path: Armature/Bone/RightBack
+        weight: 1
+      - path: Armature/Bone/RightBack/RightBack_end
+        weight: 1
+      - path: Armature/Bone/RightFront
+        weight: 1
+      - path: Armature/Bone/RightFront/RightFront_end
+        weight: 1
+      - path: Armature/Bone/RightMiddle
+        weight: 1
+      - path: Armature/Bone/RightMiddle/RightMiddle_end
+        weight: 1
+      - path: Armature/Bone.001
+        weight: 1
+      - path: Armature/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone.002
+        weight: 1
+      - path: Armature/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Bone.002/Bone.003/Bone.003_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: wings
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: celebration
+      takeName: Armature|ArmatureAction
+      firstFrame: 175
+      lastFrame: 257
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Forehead
+        weight: 1
+      - path: Armature/Bone/Forehead/LeftTopHead
+        weight: 1
+      - path: Armature/Bone/Forehead/LeftTopHead/LeftAntennaBottom.001
+        weight: 1
+      - path: Armature/Bone/Forehead/LeftTopHead/LeftAntennaBottom.001/LeftAntennaTop
+        weight: 1
+      - path: Armature/Bone/Forehead/LeftTopHead/LeftAntennaBottom.001/LeftAntennaTop/LeftAntennaTop_end
+        weight: 1
+      - path: Armature/Bone/Forehead/RighttopHead
+        weight: 1
+      - path: Armature/Bone/Forehead/RighttopHead/RightAntennaBottom
+        weight: 1
+      - path: Armature/Bone/Forehead/RighttopHead/RightAntennaBottom/RightAntennaTop
+        weight: 1
+      - path: Armature/Bone/Forehead/RighttopHead/RightAntennaBottom/RightAntennaTop/RightAntennaTop_end
+        weight: 1
+      - path: Armature/Bone/LeftBack
+        weight: 1
+      - path: Armature/Bone/LeftBack/LeftBack_end
+        weight: 1
+      - path: Armature/Bone/LeftFront
+        weight: 1
+      - path: Armature/Bone/LeftFront/LeftFront_end
+        weight: 1
+      - path: Armature/Bone/LeftMiddle
+        weight: 1
+      - path: Armature/Bone/LeftMiddle/LeftMiddle_end
+        weight: 1
+      - path: Armature/Bone/RightBack
+        weight: 1
+      - path: Armature/Bone/RightBack/RightBack_end
+        weight: 1
+      - path: Armature/Bone/RightFront
+        weight: 1
+      - path: Armature/Bone/RightFront/RightFront_end
+        weight: 1
+      - path: Armature/Bone/RightMiddle
+        weight: 1
+      - path: Armature/Bone/RightMiddle/RightMiddle_end
+        weight: 1
+      - path: Armature/Bone.001
+        weight: 1
+      - path: Armature/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone.002
+        weight: 1
+      - path: Armature/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Bone.002/Bone.003/Bone.003_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: wings
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: staticCelebration
+      takeName: Armature|ArmatureAction
+      firstFrame: 225
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Forehead
+        weight: 1
+      - path: Armature/Bone/Forehead/LeftTopHead
+        weight: 1
+      - path: Armature/Bone/Forehead/LeftTopHead/LeftAntennaBottom.001
+        weight: 1
+      - path: Armature/Bone/Forehead/LeftTopHead/LeftAntennaBottom.001/LeftAntennaTop
+        weight: 1
+      - path: Armature/Bone/Forehead/LeftTopHead/LeftAntennaBottom.001/LeftAntennaTop/LeftAntennaTop_end
+        weight: 1
+      - path: Armature/Bone/Forehead/RighttopHead
+        weight: 1
+      - path: Armature/Bone/Forehead/RighttopHead/RightAntennaBottom
+        weight: 1
+      - path: Armature/Bone/Forehead/RighttopHead/RightAntennaBottom/RightAntennaTop
+        weight: 1
+      - path: Armature/Bone/Forehead/RighttopHead/RightAntennaBottom/RightAntennaTop/RightAntennaTop_end
+        weight: 1
+      - path: Armature/Bone/LeftBack
+        weight: 1
+      - path: Armature/Bone/LeftBack/LeftBack_end
+        weight: 1
+      - path: Armature/Bone/LeftFront
+        weight: 1
+      - path: Armature/Bone/LeftFront/LeftFront_end
+        weight: 1
+      - path: Armature/Bone/LeftMiddle
+        weight: 1
+      - path: Armature/Bone/LeftMiddle/LeftMiddle_end
+        weight: 1
+      - path: Armature/Bone/RightBack
+        weight: 1
+      - path: Armature/Bone/RightBack/RightBack_end
+        weight: 1
+      - path: Armature/Bone/RightFront
+        weight: 1
+      - path: Armature/Bone/RightFront/RightFront_end
+        weight: 1
+      - path: Armature/Bone/RightMiddle
+        weight: 1
+      - path: Armature/Bone/RightMiddle/RightMiddle_end
+        weight: 1
+      - path: Armature/Bone.001
+        weight: 1
+      - path: Armature/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone.002
+        weight: 1
+      - path: Armature/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Bone.002/Bone.003/Bone.003_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: wings
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: static
+      takeName: Armature|ArmatureAction
+      firstFrame: 2
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Forehead
+        weight: 1
+      - path: Armature/Bone/Forehead/LeftTopHead
+        weight: 1
+      - path: Armature/Bone/Forehead/LeftTopHead/LeftAntennaBottom.001
+        weight: 1
+      - path: Armature/Bone/Forehead/LeftTopHead/LeftAntennaBottom.001/LeftAntennaTop
+        weight: 1
+      - path: Armature/Bone/Forehead/LeftTopHead/LeftAntennaBottom.001/LeftAntennaTop/LeftAntennaTop_end
+        weight: 1
+      - path: Armature/Bone/Forehead/RighttopHead
+        weight: 1
+      - path: Armature/Bone/Forehead/RighttopHead/RightAntennaBottom
+        weight: 1
+      - path: Armature/Bone/Forehead/RighttopHead/RightAntennaBottom/RightAntennaTop
+        weight: 1
+      - path: Armature/Bone/Forehead/RighttopHead/RightAntennaBottom/RightAntennaTop/RightAntennaTop_end
+        weight: 1
+      - path: Armature/Bone/LeftBack
+        weight: 1
+      - path: Armature/Bone/LeftBack/LeftBack_end
+        weight: 1
+      - path: Armature/Bone/LeftFront
+        weight: 1
+      - path: Armature/Bone/LeftFront/LeftFront_end
+        weight: 1
+      - path: Armature/Bone/LeftMiddle
+        weight: 1
+      - path: Armature/Bone/LeftMiddle/LeftMiddle_end
+        weight: 1
+      - path: Armature/Bone/RightBack
+        weight: 1
+      - path: Armature/Bone/RightBack/RightBack_end
+        weight: 1
+      - path: Armature/Bone/RightFront
+        weight: 1
+      - path: Armature/Bone/RightFront/RightFront_end
+        weight: 1
+      - path: Armature/Bone/RightMiddle
+        weight: 1
+      - path: Armature/Bone/RightMiddle/RightMiddle_end
+        weight: 1
+      - path: Armature/Bone.001
+        weight: 1
+      - path: Armature/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone.002
+        weight: 1
+      - path: Armature/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Bone.002/Bone.003/Bone.003_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: wings
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: headshake
+      takeName: Armature|ArmatureAction
+      firstFrame: 133
+      lastFrame: 170
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Forehead
+        weight: 1
+      - path: Armature/Bone/Forehead/LeftTopHead
+        weight: 1
+      - path: Armature/Bone/Forehead/LeftTopHead/LeftAntennaBottom.001
+        weight: 1
+      - path: Armature/Bone/Forehead/LeftTopHead/LeftAntennaBottom.001/LeftAntennaTop
+        weight: 1
+      - path: Armature/Bone/Forehead/LeftTopHead/LeftAntennaBottom.001/LeftAntennaTop/LeftAntennaTop_end
+        weight: 1
+      - path: Armature/Bone/Forehead/RighttopHead
+        weight: 1
+      - path: Armature/Bone/Forehead/RighttopHead/RightAntennaBottom
+        weight: 1
+      - path: Armature/Bone/Forehead/RighttopHead/RightAntennaBottom/RightAntennaTop
+        weight: 1
+      - path: Armature/Bone/Forehead/RighttopHead/RightAntennaBottom/RightAntennaTop/RightAntennaTop_end
+        weight: 1
+      - path: Armature/Bone/LeftBack
+        weight: 1
+      - path: Armature/Bone/LeftBack/LeftBack_end
+        weight: 1
+      - path: Armature/Bone/LeftFront
+        weight: 1
+      - path: Armature/Bone/LeftFront/LeftFront_end
+        weight: 1
+      - path: Armature/Bone/LeftMiddle
+        weight: 1
+      - path: Armature/Bone/LeftMiddle/LeftMiddle_end
+        weight: 1
+      - path: Armature/Bone/RightBack
+        weight: 1
+      - path: Armature/Bone/RightBack/RightBack_end
+        weight: 1
+      - path: Armature/Bone/RightFront
+        weight: 1
+      - path: Armature/Bone/RightFront/RightFront_end
+        weight: 1
+      - path: Armature/Bone/RightMiddle
+        weight: 1
+      - path: Armature/Bone/RightMiddle/RightMiddle_end
+        weight: 1
+      - path: Armature/Bone.001
+        weight: 1
+      - path: Armature/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone.002
+        weight: 1
+      - path: Armature/Bone.002/Bone.003
+        weight: 1
+      - path: Armature/Bone.002/Bone.003/Bone.003_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: wings
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

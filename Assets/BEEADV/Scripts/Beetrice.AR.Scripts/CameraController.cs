@@ -4,7 +4,7 @@ using System.Collections;
 public class CameraController : MonoBehaviour
 { 
     public GameObject plane;
-    private WebCamTexture mCamera = null;
+    public WebCamTexture mCamera = null;
 
 	// Use this for initialization
 	void Start ()
@@ -14,6 +14,8 @@ public class CameraController : MonoBehaviour
 
 		mCamera = new WebCamTexture ();
 		plane.GetComponent<Renderer>().material.mainTexture = mCamera;
+		//plane.transform.Rotate (new Vector3 (0, 180, 0));  // Compensate for camera rotation
+		plane.transform.Rotate (new Vector3 (0, 270, 0));  // Compensate 180 deg webcam + 90 deg android
 		mCamera.Play ();
 
 	}

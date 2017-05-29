@@ -6,14 +6,59 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/BEEADV/Scenes/LoginScene.unity
+    path: Assets/BEEADV/Scenes/SplashScene.unity
+    guid: ae9d5d069778c1f468ed521c0059c16c
+  - enabled: 0
+    path: Assets/BEEADV/Scenes/LoginScene2.unity
+    guid: 83c408b07b0f8f7478ba98e61f6e02f9
   - enabled: 1
     path: Assets/BEEADV/Scenes/StoryScene.unity
-  - enabled: 1
-    path: Assets/BEEADV/Scenes/HomeScene.unity
-  - enabled: 1
-    path: Assets/BEEADV/Scenes/HivesScene.unity
-  - enabled: 1
-    path: Assets/BEEADV/Scenes/ParksScene.unity
+    guid: b0075e987660bb94193c586bebb01535
   - enabled: 1
     path: Assets/BEEADV/Scenes/FactsScene.unity
+    guid: 7f2b784bdbbad2b40bb047ac05f24d8c
+  - enabled: 1
+    path: Assets/BEEADV/Scenes/SplashScene.unity
+    guid: ae9d5d069778c1f468ed521c0059c16c
+  - enabled: 0
+    path: Assets/BEEADV/Scenes/LoginScene2.unity
+    guid: 83c408b07b0f8f7478ba98e61f6e02f9
+  - enabled: 1
+    path: Assets/BEEADV/Scenes/HomeScene.unity
+    guid: 3f89098a339c744e88644a47f777dbf9
+  - enabled: 1
+    path: Assets/BEEADV/Scenes/StoryScene.unity
+    guid: b0075e987660bb94193c586bebb01535
+  - enabled: 1
+    path: Assets/BEEADV/Scenes/FactsScene.unity
+    guid: 7f2b784bdbbad2b40bb047ac05f24d8c
+  - enabled: 0
+    path: Assets/BEEADV/Scenes/ParksScene.unity
+    guid: 34c60d02d665148bcba9323cc8f83b44
+  - enabled: 1
+    path: Assets/BEEADV/Scenes/ParkFiles/GoogleMaps/ParkScene.unity
+    guid: d5f2c0436e5764355ae819dd97856efb
+  - enabled: 1
+    path: Assets/BEEADV/Scenes/LoginScene2.unity
+    guid: 83c408b07b0f8f7478ba98e61f6e02f9
+  - enabled: 1
+    path: Assets/BEEADV/Scenes/StoryScene.unity
+    guid: b0075e987660bb94193c586bebb01535
+  - enabled: 0
+    path: Assets/BEEADV/Scenes/HomeSceneOld.unity
+    guid: 12c74148ca013bb4aa8310dde4d09210
+  - enabled: 1
+    path: Assets/BEEADV/Scenes/HiveScene4Hive3.unity
+    guid: 34a1cad8cec07884db966ef529b05d5f
+  - enabled: 1
+    path: Assets/BEEADV/Scenes/HiveScene4Bee2.unity
+    guid: d1fb161eabb98ee49b9d32f307ddee8e
+  - enabled: 1
+    path: Assets/BEEADV/Scenes/FlowerTapping5.15.unity
+    guid: 5bb8a3b02d21b9f49b9868c43e1d4b75
+  - enabled: 1
+    path: Assets/BEEADV/Scenes/HiveScene4Hive3.unity
+    guid: 34a1cad8cec07884db966ef529b05d5f
+  - enabled: 1
+    path: Assets/BEEADV/Scenes/FlowerTapping5.15.unity
+    guid: 5bb8a3b02d21b9f49b9868c43e1d4b75
